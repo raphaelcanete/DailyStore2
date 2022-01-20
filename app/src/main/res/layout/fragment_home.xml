@@ -18,7 +18,10 @@
         android:textAlignment="center"
         android:textSize="20sp"
          />
-
+<TextView
+    android:text="addded text view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView_category"
         android:layout_width="match_parent"
