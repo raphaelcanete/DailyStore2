@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".signup.SendCode">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="-80dp"
+            android:src="@drawable/emailvector"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTP Verification"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the OTP sent to your number"
+            android:textSize="18sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/concrete"
+            />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/code1"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/code2"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/code3"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/code4"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/code5"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/code6"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sendCode"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sign up"
+            android:background="@drawable/btn_sign"
+            />
+
+</LinearLayout>
