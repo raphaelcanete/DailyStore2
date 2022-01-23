@@ -10,9 +10,17 @@
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.12239583333333333" />
         <entry key="app/src/main/res/layout-normal/activity_start.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout-small/activity_start.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout-sw320dp/activity_get_location.xml" value="0.9583333333333334" />
+        <entry key="app/src/main/res/layout-sw320dp/activity_location_activity.xml" value="0.2358974358974359" />
         <entry key="app/src/main/res/layout-sw320dp/activity_start.xml" value="0.9583333333333334" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_get_location.xml" value="0.575" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_location_activity.xml" value="0.575" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_start.xml" value="0.625" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_get_location.xml" value="0.1796875" />
         <entry key="app/src/main/res/layout/activity_email.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/layout/activity_get_location.xml" value="0.22552083333333334" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.10625" />
+        <entry key="app/src/main/res/layout/activity_location_activity.xml" value="0.2358974358974359" />
         <entry key="app/src/main/res/layout/activity_personal_info.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/activity_phone_number.xml" value="0.1529229518323633" />
         <entry key="app/src/main/res/layout/activity_send_code.xml" value="0.21875" />
