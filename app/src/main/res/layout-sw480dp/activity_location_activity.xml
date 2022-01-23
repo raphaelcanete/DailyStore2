@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocationActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/locationvector" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Find supermarkets near you"
+            android:textSize="30sp"
+            android:textColor="@color/bluenights"
+            />
+        <TextView
+            android:layout_width="340dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/starttext"
+            android:textSize="21sp"
+            android:textColor="@color/bluenights"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_locationAccess"
+        android:layout_width="350dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:text="Allow Location Access"
+        android:background="@drawable/btn_sign"/>
+    <TextView
+        android:id="@+id/btn_enterLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/alizarin"
+        android:text="Enter my location"
+        />
+</LinearLayout>
