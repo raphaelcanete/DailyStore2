@@ -8,11 +8,15 @@
         <entry key="app/src/main/res/drawable/edittext_bg.xml" value="0.25333333333333335" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.12239583333333333" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.12239583333333333" />
+        <entry key="app/src/main/res/layout-normal/activity_start.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout-small/activity_start.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout-sw320dp/activity_start.xml" value="0.9583333333333334" />
         <entry key="app/src/main/res/layout/activity_email.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.10625" />
         <entry key="app/src/main/res/layout/activity_personal_info.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/activity_phone_number.xml" value="0.1529229518323633" />
         <entry key="app/src/main/res/layout/activity_send_code.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.25" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/card_category.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.21875" />
